@@ -1,0 +1,500 @@
+/* body common */
+body, div, ul, li, dl, dt, dd, ol, p, h1, h2, h3, h4, h5, h6, form {margin:0; padding:0;}
+body {font-family:Verdana,Arial,Helvetica,sans-serif; }
+ul, ol, dl {list-style:none;}
+img {border:0; vertical-align:top;}
+ul {list-style:none; padding:0;	margin:0;}
+/*a {selector-dummy:expression(this.hideFocus=true);} 
+:focus {-moz-outline-style:none;}*/
+
+
+/*************** main menu start ***************/
+
+#common_top {width:100%; height:69px; background-image:url(../images/top_bg.gif);}
+#mainmenu {width:996px; margin:0 auto; height:69px; background-image:url(../images/top_bg.gif);}
+ul.dropdown li.main_logo {padding-right:20px;}
+#maintop_left {float:left; 	width:620px; height:69px; background-image:url(../images/top_bg.gif);}
+#maintop_right {float:left; width:376px; height:69px; background-image:url(../images/top_bg.gif);}
+
+ul.dropdown {position: relative; z-index: 597; float: left;	padding-top:22px; display: block;}
+ul.dropdown li {float: left; line-height: 1.3em; vertical-align: middle; zoom: 1;}
+ul.dropdown li.hover, ul.dropdown li:hover {position: relative; z-index: 599; cursor: pointer;}
+
+/* ul.dropdown ul.menu1 {visibility: hidden; position: absolute; top: 69px; left: 0; z-index: 598;	width:950px;} width full */ 
+ul.dropdown ul.menu1 {visibility: hidden; position: absolute; top: 69px; left: 0; z-index: 598;	width:668px;}
+ul.dropdown ul.menu2 {visibility: hidden; position: absolute; top: 69px; left: 217px; z-index: 598;	width:110px;}
+ul.dropdown ul.menu4 {visibility: hidden; position: absolute; top: 69px; left: 422px; z-index: 598; width:120px;}
+ul.dropdown ul.menu5 {visibility: hidden; position: absolute; top: 69px; left:480px; z-index: 598; width:auto;}
+ul.dropdown ul.menu6 {visibility: hidden; position: absolute; top: 28px; left:20px;	width:auto;}  /* Language */
+/* ul.dropdown ul.menu7 {visibility: hidden; position: absolute; top: 62px;left:20px; width:210px;	padding:0 10px 0 10px; background-color:#323232;}  Login */
+
+ul.dropdown ul li {float: none;}
+ul.dropdown ul ul {top: 1px; left: 99%;}
+ul.dropdown li:hover > ul {visibility: visible;}
+ul.dropdown-linear {width: 100%;}
+ul.dropdown-linear ul li {float: left;}
+ul.dropdown-linear li.hover, ul.dropdown-linear li:hover {position: static;}
+ul.dropdown-linear ul ul {display: none !important;}
+ul.dropdown-columnar ul li {position: static;}
+ul.dropdown ul ul {display: block !important;	position: static; width: auto !important;}
+
+ul.dropdown ul.menu1 ul {display: block !important; position: static; width: auto !important;}
+ul.dropdown ul.menu2 ul {display: block !important; position: static; width: 110px !important;}
+ul.dropdown ul.menu4 ul {display: block !important; position: static; width: 120px !important;}
+ul.dropdown ul.menu5 ul {display: block !important; position: static; width: auto !important;}
+ul.dropdown ul.menu6 ul {display: block !important; position: static; width: 191px !important;}
+/* ul.dropdown ul.menu7 ul {display: block !important; position: static; width: auto !important;} */
+
+ul.dropdown-columnar ul ul li {float: none;}
+ul.dropdown-columnar ul ul ul {display: none;}
+ul.dropdown-columnar li.hover ul, ul.dropdown-columnar li:hover ul {visibility: visible !important;}
+ul.dropdown {font: bold 35px/normal Verdana, Geneva, sans-serif; font-size:14px;}
+ul.dropdown li {padding: 0;	background-color: transparent;	color: #9a9a9a;}
+ul.dropdown li.hover, ul.dropdown li:hover {color: #fcb416;}
+ul.dropdown li.top_logout {color: #9a9a9a;}
+ul.dropdown li.top_logout_hello {color: #9a9a9a;}
+
+/* Forum only */
+ul.dropdown .dir_forum a:link {color: #9a9a9a; text-decoration: none;}
+ul.dropdown .dir_forum a:visited {color: #9a9a9a; text-decoration: none;}
+ul.dropdown .dir_forum a:hover {color: #fcb416;}
+ul.dropdown .dir_forum a:active {color: #ffa500;}
+
+ul.dropdown a:link {color: #969696;	text-decoration: none;}
+ul.dropdown a:visited {color: #969696; text-decoration: none;}
+ul.dropdown a:hover {color: #fcb416;}
+ul.dropdown a:active {color: #ffa500;}
+
+ /* facebook */
+ul.dropdown .button01 a:link {color: #fff; text-decoration: none;} 
+ul.dropdown .button01 a:visited {color: #fff; text-decoration: none;}
+ul.dropdown .button01 a:hover {color: #004474;}
+ul.dropdown .button01 a:active {color: #004474;}
+
+ul.dropdown ul {background-color: #242424; font-size: 11px;	letter-spacing: normal;	z-index:600;}
+ul.dropdown .game_menu {color:#969696; text-align:center;}
+
+ul.dropdown .menu1 .dir {background:url(../images/gamemenu_verLine.gif) no-repeat 100% 28%;	padding-right:11px;}
+
+* html ul.dropdown ul {width: 996px;}
+
+ul.dropdown ul li {font-weight: bold;}
+ul.dropdown ul ul {margin-top: 5px;	text-transform: none;}
+ul.dropdown ul ul li {font-weight: bold;}
+/* menu 간격 */
+
+/*
+ul.dropdown *.dir {
+	padding-top: 30px;
+	background-image: url(https://web.archive.org/web/20140210180734im_/http://web01.softnyx.com/image/latino/Softnyx/Main_new/mainmenu_verLine.gif);
+	background-position: 100% 100%;
+	background-repeat: no-repeat;
+}
+*/
+
+ul.dropdown ul *.dir {background-image: none;}
+ul.dropdown li a {display: block; padding: 0;}
+
+ul.dropdown li.dir {padding: 4px 0 26px 20px; display:block;}
+ul.dropdown li.dir_servertime {font-size:11px; font-weight:normal; color:#989898; cursor:default;}
+ul.dropdown li.dir_language {padding: 0 0 4px 20px;	display:block;}
+ul.dropdown li.dir_login {padding: 0; display:block; margin-top:10px;}
+ul.dropdown li.dir_login ul{float:left;}
+ul.dropdown li.dir_login li{padding:3px;}
+
+.menu_verLine {background:url(../images/mainmenu_verLine.gif) no-repeat 100% 50%; padding-right:22px;}
+
+.dir_forum {padding: 4px 0 4px 20px; display:block;	background:url(../images/mainmenu_verLine.gif) no-repeat 100% 50%;	padding-right:22px;}
+
+li.dir:hover {background-image:url(../images/menu_select.png);	background-position: 50% 100%;	background-repeat:no-repeat;}
+li.dir .menu5:hover {background-image:url(../images/menu_select.png);	background-position: 80% 100%;	background-repeat:no-repeat;}
+
+ul.dropdown ul li.dir {padding: 10px;}
+ul.dropdown ul {padding: 0 10px;}
+#maintop_right ul.dropdown {padding-top:11px; padding-left:20px; float:left; font-size:11px; width:260px; display:block;}
+
+ul.dropdown .menu1 a {width: 74px; padding: 0;}
+ul.dropdown .menu2 a {width: 70px;	padding: 5px;	background: url(../images/pattern2.png) 0 23px repeat-x;}
+ul.dropdown .menu4 a {width: 70px;	padding: 5px;	background: url(../images/pattern2.png) 0 23px repeat-x;}
+ul.dropdown .menu5 a {width: 140px;	padding: 5px;	background: url(../images/pattern2.png) 0 23px repeat-x;}
+ul.dropdown .menu6 a {width: 180px;	padding: 5px;	background: url(../images/pattern2.png) 0 23px repeat-x; font-size:11px; font-weight:normal;}
+ul.dropdown .menu7 a {width: 180px;	padding: 5px;	font-size:11px;	font-weight:normal;}
+
+/* login */
+ul.dropdown .menu7 .top_login a {
+	padding-top:19px; padding-left:5px;	font-size:11px;	letter-spacing:-0.3px;	float:left; 	
+	background:url(../images/login_btnBg.jpg) no-repeat; width:51px; height:37px; color:#FFF;}
+	
+ul.dropdown ul a:link {color: #969696;}
+ul.dropdown ul a:hover {color: #fcb416;}
+
+/* login */
+ul.dropdown .menu7 .top_login a:link {color: #fff;}
+ul.dropdown .menu7 .top_login a:hover {color: #fcb416;}
+
+/* password */
+ul.dropdown .menu7 .top_pw a:link {color: #969696;}
+ul.dropdown .menu7 .top_pw a:hover {color: #fcb416;}
+
+ul.dropdown ul ul {padding: 0;	margin-left: 0;}
+
+
+
+
+/* button */
+.button, .button * {
+	position:relative;	margin:0;	padding:0;	display:-moz-inline-stack;	display:inline-block;
+	text-decoration:none !important;	border:0;	font-size:11px;	font-family:Verdana, Geneva, sans-serif;
+	white-space:nowrap;	background:url(../images/btn_bg01.png) no-repeat;	vertical-align:top;
+	overflow:visible;	color:#9a9a9a;}
+.button {margin-right:9px;}
+.button * {left:4px; cursor:pointer; _cursor:hand;}
+.button.medium, .button.medium * {height:23px; line-height:23px;}
+.button.medium {background-position:0 0;}
+.button.medium * {padding:0 5px 0 3px;	font-size:11px;	background-position:right top;}
+
+/* Button Hover */
+.button *:hover, .button *:active, .button *:focus {color:#fcb416;}
+
+/* facebook btn */
+.button01, .button01 * {
+	position:relative;	margin:0;	padding:0;	display:-moz-inline-stack;	display:inline-block;
+	text-decoration:none !important;	border:0;	font-size:11px;	font-family:Verdana, Geneva, sans-serif;
+	white-space:nowrap;	background:url(../images/btn_bg02.png) no-repeat;
+	vertical-align:top;	overflow:visible;	color:#fff;}
+.button01 {padding-left:20px;	margin-right:9px;}
+.button01 * {left:4px;	cursor:pointer;	_cursor:hand;}
+.button01.medium01, .button01.medium01 * {height:23px; line-height:23px;}
+.button01.medium01 {background-position:0 0;}
+.button01.medium01 * {padding:0 6px 0 4px; font-size:11px;	background-position:right top;}
+
+/* Button Hover */
+ul li .button01 *:hover, .button01 *:active, .button01 *:focus {color:#004474;}
+
+/* orange btn */
+.button02, .button02 * {
+	position:relative;	margin:0;	padding:0;	display:-moz-inline-stack;	display:inline-block;
+	text-decoration:none !important;	border:0;	font-size:11px;	font-family:Verdana, Geneva, sans-serif;
+	white-space:nowrap;	background:url(../images/btn_bg03.png) no-repeat;
+	vertical-align:top;	overflow:visible;	color:#fff;}
+.button02 {padding-left:8px; margin-right:9px;}
+.button02 * {left:4px;	cursor:pointer;	_cursor:hand;}
+.button02.medium02, .button02.medium02 * {height:23px; line-height:21px;}
+.button02.medium02 {background-position:0 0;}
+.button02.medium02 * {padding:0 10px 0 6px;	font-size:12px;	background-position:right top;}
+
+/* Button Hover */
+ul li .button02 *:hover, .button02 *:active, .button02 *:focus {color:#000;}
+
+/* contents btn */
+.button03, .button03 * {
+	position:relative;	margin:0;	padding:0;	display:-moz-inline-stack;	display:inline-block;
+	text-decoration:none !important;	border:0;	font-size:11px;	font-family:Verdana, Geneva, sans-serif;
+	white-space:nowrap;	background:url(../images/btn_bg04.png) no-repeat;
+	vertical-align:top;	overflow:visible;	color:#434343;}
+.button03 {padding-left:8px; margin-right:9px;}
+.button03 * {left:4px;	cursor:pointer;	_cursor:hand;}
+.button03.medium03, .button03.medium03 * {height:20px; line-height:19px;}
+.button03.medium03 {background-position:0 0;}
+.button03.medium03 * {padding:0 10px 0 6px;	font-size:11px;	background-position:right top;}
+
+/* Button Hover */
+.button03 *:hover, .button03 *:active, .button03 *:focus {color:#f26223;}
+
+.ad_area {padding:5px 10px 0 20px; 	float:left;}
+
+/* login */
+ul.dropdown .top_login {float:left; width:50px; height:56px; padding-top:5px; padding-left:8px;}
+ul.dropdown .top_logout {float:left; padding-top:15px;}
+ul.dropdown .top_logout_hello {float:left; padding-top:15px; cursor:default; background:url(../images/smile_icon.png) no-repeat 0 100%; padding-left:18px;}
+
+/* password */
+ul.dropdown .top_pw {clear:both;}
+
+/*************** main menu end ***************/
+
+
+/* button */
+.button, .button * {
+	position:relative;	margin:0;	padding:0;	display:-moz-inline-stack;	display:inline-block;
+	text-decoration:none !important;	border:0;	font-size:11px;	font-family:Verdana, Geneva, sans-serif;
+	white-space:nowrap;	background:url(../images/btn_bg01.png) no-repeat;	vertical-align:top;
+	overflow:visible;	color:#9a9a9a;}
+.button {margin-right:9px;}
+.button * {left:4px; cursor:pointer; _cursor:hand;}
+.button.medium, .button.medium * {height:23px; line-height:23px;}
+.button.medium {background-position:0 0;}
+.button.medium * {padding:0 5px 0 3px;	font-size:11px;	background-position:right top;}
+
+/* Button Hover */
+.button *:hover, .button *:active, .button *:focus {color:#fcb416;}
+
+/* facebook btn */
+.button01, .button01 * {
+	position:relative;	margin:0;	padding:0;	display:-moz-inline-stack;	display:inline-block;
+	text-decoration:none !important;	border:0;	font-size:11px;	font-family:Verdana, Geneva, sans-serif;
+	white-space:nowrap;	background:url(../images/btn_bg02.png) no-repeat;
+	vertical-align:top;	overflow:visible;	color:#fff;}
+.button01 {padding-left:20px;	margin-right:9px;}
+.button01 * {left:4px;	cursor:pointer;	_cursor:hand;}
+.button01.medium01, .button01.medium01 * {height:23px; line-height:23px;}
+.button01.medium01 {background-position:0 0;}
+.button01.medium01 * {padding:0 6px 0 4px; font-size:11px;	background-position:right top;}
+
+/* Button Hover */
+ul li .button01 *:hover, .button01 *:active, .button01 *:focus {color:#004474;}
+
+/* orange btn */
+.button02, .button02 * {
+	position:relative;	margin:0;	padding:0;	display:-moz-inline-stack;	display:inline-block;
+	text-decoration:none !important;	border:0;	font-size:11px;	font-family:Verdana, Geneva, sans-serif;
+	white-space:nowrap;	background:url(../images/btn_bg03.png) no-repeat;
+	vertical-align:top;	overflow:visible;	color:#fff;}
+.button02 {padding-left:8px; margin-right:9px;}
+.button02 * {left:4px;	cursor:pointer;	_cursor:hand;}
+.button02.medium02, .button02.medium02 * {height:23px; line-height:21px;}
+.button02.medium02 {background-position:0 0;}
+.button02.medium02 * {padding:0 10px 0 6px;	font-size:12px;	background-position:right top;}
+
+/* Button Hover */
+ul li .button02 *:hover, .button02 *:active, .button02 *:focus {color:#000;}
+
+/* contents btn */
+.button03, .button03 * {
+	position:relative;	margin:0;	padding:0;	display:-moz-inline-stack;	display:inline-block;
+	text-decoration:none !important;	border:0;	font-size:11px;	font-family:Verdana, Geneva, sans-serif;
+	white-space:nowrap;	background:url(../images/btn_bg04.png) no-repeat;
+	vertical-align:top;	overflow:visible;	color:#434343;}
+.button03 {padding-left:8px; margin-right:9px;}
+.button03 * {left:4px;	cursor:pointer;	_cursor:hand;}
+.button03.medium03, .button03.medium03 * {height:20px; line-height:19px;}
+.button03.medium03 {background-position:0 0;}
+.button03.medium03 * {padding:0 10px 0 6px;	font-size:11px;	background-position:right top;}
+
+/* Button Hover */
+.button03 *:hover, .button03 *:active, .button03 *:focus {color:#f26223;}
+
+.ad_area {padding:5px 10px 0 20px; 	float:left;}
+
+/* login */
+ul.dropdown .top_login {float:left; width:50px; height:56px; padding-top:5px; padding-left:8px;}
+ul.dropdown .top_logout {float:left; padding-top:15px;}
+ul.dropdown .top_logout_hello {float:left; padding-top:15px; cursor:default; background:url(../images/smile_icon.png) no-repeat 0 100%; padding-left:18px;}
+
+/* password */
+ul.dropdown .top_pw {clear:both;}
+
+
+
+/* softnyx top 
+#maindiv div {display:inline;}
+#game_clock {font-family:tahoma; font-size:11px; color:#ffffff;	font-weight:bold; float:right; width:150px; padding-top:5px}
+*/
+/* layout */
+#container {
+    PADDING-RIGHT: 0px;
+    PADDING-LEFT: 0px;
+    PADDING-BOTTOM: 0px;
+    WIDTH: 100%;
+    PADDING-TOP: 0px;
+    POSITION: relative;
+}
+#wrap { margin:0 auto; width:996px; display:block; position:relative; z-index:444}
+#left_bg { background:url(../images/main_leftbg.jpg) no-repeat right top; left: -498px; margin:0; width: 50%; position: absolute; height:923px}
+*html #left_bg { background:url(../images/main_leftbg_ie6.jpg) no-repeat right top; left: -498px; margin:0; width: 50%; position: absolute; height:947px} /* IE 6.0 hack */
+*:first-child+html #left_bg {background:url(../images/main_leftbg_ie6.jpg) no-repeat right top; left: -498px; margin:0; width: 50%; position: absolute; height:923px} /* IE 7.0 hack */
+*+html>/**/#left_bg { background:url(../images/main_leftbg.jpg) no-repeat right top; left: -498px; margin:0; width: 50%; position: absolute; height:991px}
+
+#right_bg {right:0; background:url(../images/main_rightbg.jpg) no-repeat 498px 0; width:50%; position: absolute; height:923px} 
+*html #right_bg {right:0; background:url(../images/main_rightbg_ie6.jpg) no-repeat 498px 0; width:50%; position: absolute; height:947px} /* IE 6.0 hack */
+*:first-child+html  #right_bg {right:0; background:url(../images/main_rightbg_ie6.jpg) no-repeat 498px 0; width:50%; position: absolute; height:639px}  /* IE 7.0 hack */
+body:first-of-type #right_bg {right:0; background:url(../images/main_rightbg.jpg) no-repeat 497px 0; width:50%; position: absolute; height:923px} /* chrome hack */
+*+html>/**/#right_bg {right:0; background:url(../images/main_rightbg.jpg) no-repeat 498px 0; width:50%; position: absolute; height:991px} 
+
+
+#header 
+{
+	width:996px; 
+	height:115px; 
+	float:left; 
+	background-image:url(../images/topmenu.jpg);
+}
+#topmenu {float:left; width:370px; height:115px; padding-left:40px; padding-top:55px; font-size:0.92em; font-weight:bold; color:#fff}
+*html #topmenu {float:left; width:370px; height:60px; padding-left:40px; padding-top:55px; font-size:0.92em; font-weight:bold; color:#fff} /* IE 6.0 hack */
+#topmenu02 {float:left; width:181px; height:115px; padding-top:25px}
+*html #topmenu02 {float:left; width:181px; height:90px; padding-top:25px} /* IE 6.0 hack */
+#topmenu03 {float:left; width:405px; height:115px; padding-top:55px; font-size:0.92em; font-weight:bold; color:#fff}
+*html #topmenu03 {float:left; width:405px; height:60px; padding-top:55px; font-size:0.92em; font-weight:bold; color:#fff} /* IE 6.0 hack */
+#topmenu li{display:inline}
+#topmenu a{color:#FFFFFF}
+#topmenu a:link {color:#fff; text-decoration:none}
+#topmenu a:visited {color:#fff; text-decoration:none}
+#topmenu a:active {color:#fff; text-decoration:none}
+#topmenu a:hover {color:#2c4a70; text-decoration:none}
+#topmenu03 li{display:inline}
+#topmenu03 a{color:#FFFFFF}
+#topmenu03 a:link {color:#fff; text-decoration:none}
+#topmenu03 a:visited {color:#fff; text-decoration:none}
+#topmenu03 a:active {color:#fff; text-decoration:none}
+#topmenu03 a:hover {color:#2c4a70; text-decoration:none}
+
+#contents {width:996px; height:484px; float:left; background:url(../images/contents_bg.jpg);}
+#left_banner {width:336px; height:275px; float:left; padding-left:10px}
+#right_area {width:336px; height:275px; float:right; padding-right:10px;}
+#movie {width:336px; height:199px; float:left; padding-left:10px; padding-top:10px}
+
+/* login area */
+#login {width:336px; height:174px; background:url(../images/logout_bg130109.jpg)}
+#login dd.login_id {width:117px; float:left; vertical-align:top; padding-left:142px; padding-top:40px}
+#login dd.login_pw {width:117px; float:left; vertical-align:top; padding-left:142px; margin-top:5px}
+#login .input_text{border:1px solid #c9c9c9; width:115px; height:16px; color:#444;}
+#login p.login_btn{float:right; margin:-21px 1px 0 0;}
+*html #login p.login_btn{float:right; margin:-21px 0 0 5px;}
+
+a.btn_big{display:inline-block; padding:0; background:url(../images/login_btnbg.jpg) no-repeat 100% 0;font-family:Verdana,Arial,Helvetica,sans-serif; font-size:10px;color:#444;line-height:44px; word-spacing:-2px; text-decoration:none !important;white-space:nowrap} 
+.login_btn .btn_big{display:block; padding:1px 16px 0 6px; background:url(../images/login_btnbg.jpg) no-repeat}
+
+#login_etc {width:190px; float:left; padding-left:146px; padding-top:6px; font-size:9px; color:#333; word-spacing:-2px;}
+body:first-of-type #login_etc {width:190px; float:left; padding-left:146px; padding-top:6px; font-size:9px; color:#333; word-spacing:1px;}
+#login_etc a{color:#333}
+#login_etc a:link {color:#333; text-decoration:none}
+#login_etc a:visited {color:#333; text-decoration:none}
+#login_etc a:active {color:#333; text-decoration:none}
+#login_etc a:hover {color:#30a7ff; text-decoration:underline}
+#login_etc li img{vertical-align:-1px}
+
+/* logout */
+#login .logout {width:336px; height:174px; background:url(../images/logout_bg130109.jpg)}
+*html .logout_okCha {width:186px; height:130px; float:left; padding-left:144px; padding-top:42px} /* IE 6.0 hack */
+.logout_noCha {width:186px; height:110px; float:left; padding-left:144px; padding-top:40px; font-family:tahoma,Verdana,Arial,Helvetica,sans-serif; font-size:11px; color:#444; line-height:16px; word-spacing:-2px; text-decoration:none !important;white-space:nowrap} 
+.logout_okCha {width:186px; height:130px; float:left; padding-left:144px; padding-top:40px} 
+.logout_okCha_table {font-family:tahoma,Verdana,Arial,Helvetica,sans-serif; font-size:11px; color:#444; line-height:16px; word-spacing:-2px; text-decoration:none !important;white-space:nowrap}
+.logout_okCha_levelNum {font-family:tahoma; font-size:7px; font-weight:bold; color:#444; word-spacing:-2px; text-decoration:none;}
+
+.logout_okCha a{color:#666666}
+.logout_okCha a:link {color:#666666; text-decoration:none}
+.logout_okCha a:visited {color:#666666; text-decoration:none}
+.logout_okCha a:active {color:#666666; text-decoration:none}
+.logout_okCha a:hover {color:#30a7ff; text-decoration:underline}
+
+#login_msg {width:130px; height:43px; float:left; font-size:11px; color:#373838; padding-left:142px; padding-top:113px; word-spacing:-2px;}
+#login_msg P.login_btn{float:right; margin:-40px -66px 0 0;}
+*html #login_msg p.login_btn{float:right; margin:-40px 37px 0 125px;}
+#login_msg a.btn_big{display:inline-block; padding:0; background:url(../images/login_btnbg.jpg) no-repeat 100% 0;font-family:Verdana,Arial,Helvetica,sans-serif; font-size:10px; color:#444; line-height:44px; word-spacing:-2px; text-decoration:none !important;white-space:nowrap} 
+#login_msg .login_btn .btn_big{display:block; padding:1px 30px 0 16px; background:url(../images/login_btnbg.jpg) no-repeat}
+
+.login_infotext {
+white-space: pre-wrap; /* CSS3*/
+white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+white-space: -pre-wrap; /* Opera 4-6 */
+white-space: -o-pre-wrap; /* Opera 7 */
+word-wrap: break-all; /* Internet Explorer 5.5+ */ 
+
+}
+
+#facebook {width:238px; height:189px; float:right; margin:10px 10px 0 0;}
+#contents02 {width:996px; height:200px; float:left; background:url(../images/contents_bg03.jpg)}
+
+#notice {width:440px; height:134px; float:left; font-size:12px; color:#666666; padding-left:34px; padding-top:26px;}
+#notice h1 {width:300px; float:left; font-family:Verdana,Arial,Helvetica,sans-serif; font-size:14px; font-weight:bold; color:#217298;}
+#notice p.notice_more{float:right; margin:0 5px 0 0; font-size:11px;}
+#notice_text {width:328px; float:left; line-height:18px;}
+#notice_date{width:90px; float:right; line-height:18px;}
+#notice_text a{color:#373838}
+#notice_text a:link {color:#373838; text-decoration:none}
+#notice_text a:visited {color:#373838; text-decoration:none}
+#notice_text a:active {color:#373838; text-decoration:none}
+#notice_text a:hover {color:#30a7ff; text-decoration:none}
+.notice_more a{color:#666666}
+.notice_more a:link {color:#666666; text-decoration:none}
+.notice_more a:visited {color:#666666; text-decoration:none}
+.notice_more a:active {color:#666666; text-decoration:none}
+.notice_more a:hover {color:#30a7ff; text-decoration:underline}
+#hotitem {width:444px; height:134px; float:left; font-size:12px; color:#666666; padding-left:54px; padding-top:26px;}
+#hotitem h1 {width:300px; float:left; font-family:Verdana,Arial,Helvetica,sans-serif; font-size:14px; font-weight:bold; color:#217298;}
+#hotitem p.hotitem_more{float:right; margin:0 5px 0 0; font-size:11px;}
+#hotitem_img {width:443px; float:left;}
+#hotitem_img li {width:107px; height:120px; float:left; text-align:center; font-family:Verdana,Arial,Helvetica,sans-serif; font-size:11px; color:#373838; padding-left:2px;}
+#hotitem_img p a{color:#373838; text-align:center}
+#hotitem_img p a:link {color:#373838; text-decoration:none}
+#hotitem_img p a:visited {color:#373838; text-decoration:none}
+#hotitem_img p a:active {color:#373838; text-decoration:none}
+#hotitem_img p a:hover {color:#30a7ff; text-decoration:none}
+.hotitem_more a{color:#666666}
+.hotitem_more a:link {color:#666666; text-decoration:none}
+.hotitem_more a:visited {color:#666666; text-decoration:none}
+.hotitem_more a:active {color:#666666; text-decoration:none}
+.hotitem_more a:hover {color:#30a7ff; text-decoration:underline}
+
+/*
+#under_banner {width:976px; height:92px; float:left; padding-left:10px; padding-top:25px;}
+*html #under_banner {width:976px; height:67px; float:left; padding-left:10px; padding-top:25px;}
+#under_banner li {display:inline; padding-left:3px;}
+*/
+
+
+
+/* google keyword */
+#googleSerach {padding-top:12px;}
+
+#googleSerach .search_border {
+	background-color: #FFFFFF;
+	border: #090 solid 3px; 
+	display: inline-block;
+	height: 23px;
+}
+
+input.keyword {
+	border:0;
+	margin:2px 0 0 3px;
+   background:#fff url('../images/keyword.gif') 8px 3px no-repeat;
+   font-size:12px; font-family:Verdana, Geneva, sans-serif;
+   width:155px;
+  }
+input.keyword01 {
+border:0;	
+margin:2px 0 0 3px;
+ font-size:12px; font-family:Verdana, Geneva, sans-serif;
+ width:155px;
+ }
+
+/* gb point btn */ 
+.button05, .button05 * {
+	position:relative;	margin:0;	padding:0;	display:-moz-inline-stack;	display:inline-block;
+	text-decoration:none !important;	border:0;	font-size:12px; font-weight:bold; font-family:Verdana, Geneva, sans-serif;
+	white-space:nowrap;	background:url(../images/point_btn.jpg) no-repeat;
+	vertical-align:top;	overflow:visible;	color:#960b0b;}
+.button05 {padding-left:0px;}
+.button05 * {cursor:pointer;	_cursor:hand;}
+.button05.medium05, .button05.medium05 * {height:29px; line-height:28px;}
+.button05.medium05 {background-position:0 0;}
+.button05.medium05 * {padding:0;	font-size:12px;	font-weight:bold; background-position:right top;}
+
+/* Button Hover */
+.button05 a {color:#fff;}
+.button05 a:hover {color:#000;}
+
+
+
+#footer {width:975px; float:left; background:#444; margin-top:200px; clear:both}
+/*
+     FILE ARCHIVED ON 18:07:34 Feb 10, 2014 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 17:57:40 Jul 22, 2022.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 160.817
+  exclusion.robots: 0.339
+  exclusion.robots.policy: 0.327
+  RedisCDXSource: 46.872
+  esindex: 0.021
+  LoadShardBlock: 89.803 (3)
+  PetaboxLoader3.datanode: 74.586 (4)
+  CDXLines.iter: 19.529 (3)
+  load_resource: 348.132
+  PetaboxLoader3.resolve: 321.954
+*/
