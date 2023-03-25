@@ -1,0 +1,2303 @@
+/* body common */
+body,
+div,
+ul,
+li,
+dl,
+dt,
+dd,
+ol,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+ul,
+ol,
+dl {
+    list-style: none;
+}
+
+img {
+    border: 0;
+    vertical-align: top;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    selector-dummy: expression(this.hideFocus=true);
+}
+
+:focus {
+    -moz-outline-style: none;
+}
+
+td {
+    word-break: break-all;
+}
+
+
+
+/*************** main menu start ***************/
+
+#common_top {
+    width: 100%;
+    height: 69px;
+    background-image: url(https://web.archive.org/web/20130826140144im_/http://web01.softnyx.com/image/latino/Softnyx/Main_new/top_bg.gif);
+}
+
+#mainmenu {
+    width: 996px;
+    margin: 0 auto;
+    height: 69px;
+    background-image: url(https://web.archive.org/web/20130826140144im_/http://web01.softnyx.com/image/latino/Softnyx/Main_new/top_bg.gif);
+}
+
+ul.dropdown li.main_logo {
+    padding-right: 20px;
+}
+
+#maintop_left {
+    float: left;
+    width: 620px;
+    height: 69px;
+    background-image: url(https://web.archive.org/web/20130826140144im_/http://web01.softnyx.com/image/latino/Softnyx/Main_new/top_bg.gif);
+}
+
+#maintop_right {
+    float: left;
+    width: 376px;
+    height: 69px;
+    background-image: url(https://web.archive.org/web/20130826140144im_/http://web01.softnyx.com/image/latino/Softnyx/Main_new/top_bg.gif);
+}
+
+ul.dropdown {
+    position: relative;
+    z-index: 597;
+    float: left;
+    padding-top: 22px;
+    display: block;
+}
+
+ul.dropdown li {
+    float: left;
+    line-height: 1.3em;
+    vertical-align: middle;
+    zoom: 1;
+}
+
+ul.dropdown li.hover,
+ul.dropdown li:hover {
+    position: relative;
+    z-index: 599;
+    cursor: pointer;
+}
+
+/* ul.dropdown ul.menu1 {visibility: hidden; position: absolute; top: 69px; left: 0; z-index: 598;	width:950px;} width full */
+ul.dropdown ul.menu1 {
+    visibility: hidden;
+    position: absolute;
+    top: 69px;
+    left: 0;
+    z-index: 598;
+    width: 665px;
+}
+
+ul.dropdown ul.menu2 {
+    visibility: hidden;
+    position: absolute;
+    top: 69px;
+    left: 217px;
+    z-index: 598;
+    width: 110px;
+}
+
+ul.dropdown ul.menu4 {
+    visibility: hidden;
+    position: absolute;
+    top: 69px;
+    left: 422px;
+    z-index: 598;
+    width: 120px;
+}
+
+ul.dropdown ul.menu5 {
+    visibility: hidden;
+    position: absolute;
+    top: 69px;
+    left: 480px;
+    z-index: 598;
+    width: auto;
+}
+
+ul.dropdown ul.menu6 {
+    visibility: hidden;
+    position: absolute;
+    top: 28px;
+    left: 20px;
+    width: auto;
+}
+
+/* Language */
+/* ul.dropdown ul.menu7 {visibility: hidden; position: absolute; top: 62px;left:20px; width:210px;	padding:0 10px 0 10px; background-color:#323232;}  Login */
+
+ul.dropdown ul li {
+    float: none;
+}
+
+ul.dropdown ul ul {
+    top: 1px;
+    left: 99%;
+}
+
+ul.dropdown li:hover>ul {
+    visibility: visible;
+}
+
+ul.dropdown-linear {
+    width: 100%;
+}
+
+ul.dropdown-linear ul li {
+    float: left;
+}
+
+ul.dropdown-linear li.hover,
+ul.dropdown-linear li:hover {
+    position: static;
+}
+
+ul.dropdown-linear ul ul {
+    display: none !important;
+}
+
+ul.dropdown-columnar ul li {
+    position: static;
+}
+
+ul.dropdown ul ul {
+    display: block !important;
+    position: static;
+    width: auto !important;
+}
+
+ul.dropdown ul.menu1 ul {
+    display: block !important;
+    position: static;
+    width: auto !important;
+}
+
+ul.dropdown ul.menu2 ul {
+    display: block !important;
+    position: static;
+    width: 110px !important;
+}
+
+ul.dropdown ul.menu4 ul {
+    display: block !important;
+    position: static;
+    width: 120px !important;
+}
+
+ul.dropdown ul.menu5 ul {
+    display: block !important;
+    position: static;
+    width: auto !important;
+}
+
+ul.dropdown ul.menu6 ul {
+    display: block !important;
+    position: static;
+    width: 191px !important;
+}
+
+/* ul.dropdown ul.menu7 ul {display: block !important; position: static; width: auto !important;} */
+
+ul.dropdown-columnar ul ul li {
+    float: none;
+}
+
+ul.dropdown-columnar ul ul ul {
+    display: none;
+}
+
+ul.dropdown-columnar li.hover ul,
+ul.dropdown-columnar li:hover ul {
+    visibility: visible !important;
+}
+
+ul.dropdown {
+    font: bold 35px/normal Verdana, Geneva, sans-serif;
+    font-size: 14px;
+}
+
+ul.dropdown li {
+    padding: 0;
+    background-color: transparent;
+    color: #9a9a9a;
+}
+
+ul.dropdown li.hover,
+ul.dropdown li:hover {
+    color: #fcb416;
+}
+
+ul.dropdown li.top_logout {
+    color: #9a9a9a;
+}
+
+ul.dropdown li.top_logout_hello {
+    color: #9a9a9a;
+}
+
+/* Forum only */
+ul.dropdown .dir_forum a:link {
+    color: #9a9a9a;
+    text-decoration: none;
+}
+
+ul.dropdown .dir_forum a:visited {
+    color: #9a9a9a;
+    text-decoration: none;
+}
+
+ul.dropdown .dir_forum a:hover {
+    color: #fcb416;
+}
+
+ul.dropdown .dir_forum a:active {
+    color: #ffa500;
+}
+
+ul.dropdown a:link {
+    color: #969696;
+    text-decoration: none;
+}
+
+ul.dropdown a:visited {
+    color: #969696;
+    text-decoration: none;
+}
+
+ul.dropdown a:hover {
+    color: #fcb416;
+}
+
+ul.dropdown a:active {
+    color: #ffa500;
+}
+
+/* facebook */
+ul.dropdown .button01 a:link {
+    color: #fff;
+    text-decoration: none;
+}
+
+ul.dropdown .button01 a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+ul.dropdown .button01 a:hover {
+    color: #004474;
+}
+
+ul.dropdown .button01 a:active {
+    color: #004474;
+}
+
+ul.dropdown ul {
+    background-color: #242424;
+    font-size: 11px;
+    letter-spacing: normal;
+    z-index: 600;
+}
+
+ul.dropdown .game_menu {
+    color: #969696;
+    text-align: center;
+}
+
+ul.dropdown .menu1 .dir {
+    background: url(https://web.archive.org/web/20130826140144im_/http://web01.softnyx.com/image/latino/Softnyx/Main_new/gamemenu_verLine.gif) no-repeat 100% 28%;
+    padding-right: 11px;
+}
+
+* html ul.dropdown ul {
+    width: 996px;
+}
+
+ul.dropdown ul li {
+    font-weight: bold;
+}
+
+ul.dropdown ul ul {
+    margin-top: 5px;
+    text-transform: none;
+}
+
+ul.dropdown ul ul li {
+    font-weight: bold;
+}
+
+/* menu 간격 */
+
+/*
+ul.dropdown *.dir {
+	padding-top: 30px;
+	background-image: url(https://web.archive.org/web/20130826140144im_/http://web01.softnyx.com/image/latino/Softnyx/Main_new/mainmenu_verLine.gif);
+	background-position: 100% 100%;
+	background-repeat: no-repeat;
+}
+*/
+
+ul.dropdown ul *.dir {
+    background-image: none;
+}
+
+ul.dropdown li a {
+    display: block;
+    padding: 0;
+}
+
+ul.dropdown li.dir {
+    padding: 4px 0 26px 20px;
+    display: block;
+}
+
+ul.dropdown li.dir_servertime {
+    font-size: 11px;
+    font-weight: normal;
+    color: #989898;
+    cursor: default;
+}
+
+ul.dropdown li.dir_language {
+    padding: 0 0 4px 20px;
+    display: block;
+}
+
+ul.dropdown li.dir_login {
+    padding: 0;
+    display: block;
+    margin-top: 10px;
+}
+
+ul.dropdown li.dir_login ul {
+    float: left;
+}
+
+ul.dropdown li.dir_login li {
+    padding: 3px;
+}
+
+.menu_verLine {
+    background: url(https://web.archive.org/web/20130826140144im_/http://web01.softnyx.com/image/latino/Softnyx/Main_new/mainmenu_verLine.gif) no-repeat 100% 50%;
+    padding-right: 22px;
+}
+
+.dir_forum {
+    padding: 4px 0 4px 20px;
+    display: block;
+    background: url(https://web.archive.org/web/20130826140144im_/http://web01.softnyx.com/image/latino/Softnyx/Main_new/mainmenu_verLine.gif) no-repeat 100% 50%;
+    padding-right: 22px;
+}
+
+li.dir:hover {
+    background-image: url(https://web.archive.org/web/20130826140144im_/http://web01.softnyx.com/image/latino/Softnyx/Main_new/menu_select.png);
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+}
+
+li.dir .menu5:hover {
+    background-image: url(https://web.archive.org/web/20130826140144im_/http://web01.softnyx.com/image/latino/Softnyx/Main_new/menu_select.png);
+    background-position: 80% 100%;
+    background-repeat: no-repeat;
+}
+
+ul.dropdown ul li.dir {
+    padding: 10px;
+}
+
+ul.dropdown ul {
+    padding: 0 10px;
+}
+
+#maintop_right ul.dropdown {
+    padding-top: 11px;
+    padding-left: 20px;
+    float: left;
+    font-size: 11px;
+    width: 260px;
+    display: block;
+}
+
+ul.dropdown .menu1 a {
+    width: 74px;
+    padding: 0;
+}
+
+ul.dropdown .menu2 a {
+    width: 80px;
+    padding: 5px;
+    background: url(https://web.archive.org/web/20130826140144im_/http://web01.softnyx.com/image/latino/Softnyx/Main_new/pattern2.png) 0 23px repeat-x;
+}
+
+ul.dropdown .menu4 a {
+    width: 88px;
+    padding: 5px;
+    background: url(https://web.archive.org/web/20130826140144im_/http://web01.softnyx.com/image/latino/Softnyx/Main_new/pattern2.png) 0 23px repeat-x;
+}
+
+ul.dropdown .menu5 a {
+    width: 140px;
+    padding: 5px;
+    background: url(https://web.archive.org/web/20130826140144im_/http://web01.softnyx.com/image/latino/Softnyx/Main_new/pattern2.png) 0 23px repeat-x;
+}
+
+ul.dropdown .menu6 a {
+    width: 180px;
+    padding: 5px;
+    background: url(https://web.archive.org/web/20130826140144im_/http://web01.softnyx.com/image/latino/Softnyx/Main_new/pattern2.png) 0 23px repeat-x;
+    font-size: 11px;
+    font-weight: normal;
+}
+
+ul.dropdown .menu7 a {
+    width: 180px;
+    padding: 5px;
+    font-size: 11px;
+    font-weight: normal;
+}
+
+/* login */
+ul.dropdown .menu7 .top_login a {
+    padding-top: 19px;
+    padding-left: 5px;
+    font-size: 11px;
+    letter-spacing: -0.3px;
+    float: left;
+    background: url(https://web.archive.org/web/20130826140144im_/http://web01.softnyx.com/image/latino/Softnyx/Main_new/login_btnBg.jpg) no-repeat;
+    width: 51px;
+    height: 37px;
+    color: #FFF;
+}
+
+ul.dropdown ul a:link {
+    color: #969696;
+}
+
+ul.dropdown ul a:hover {
+    color: #fcb416;
+}
+
+/* login */
+ul.dropdown .menu7 .top_login a:link {
+    color: #fff;
+}
+
+ul.dropdown .menu7 .top_login a:hover {
+    color: #fcb416;
+}
+
+/* password */
+ul.dropdown .menu7 .top_pw a:link {
+    color: #969696;
+}
+
+ul.dropdown .menu7 .top_pw a:hover {
+    color: #fcb416;
+}
+
+ul.dropdown ul ul {
+    padding: 0;
+    margin-left: 0;
+}
+
+
+
+
+/* button */
+.button,
+.button * {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    display: -moz-inline-stack;
+    display: inline-block;
+    text-decoration: none !important;
+    border: 0;
+    font-size: 11px;
+    font-family: Verdana, Geneva, sans-serif;
+    white-space: nowrap;
+    background: url(https://web.archive.org/web/20130826140144im_/http://web01.softnyx.com/image/latino/Softnyx/Main_new/btn_bg01.png) no-repeat;
+    vertical-align: top;
+    overflow: visible;
+    color: #9a9a9a;
+}
+
+.button {
+    margin-right: 9px;
+}
+
+.button * {
+    left: 4px;
+    cursor: pointer;
+    _cursor: hand;
+}
+
+.button.medium,
+.button.medium * {
+    height: 23px;
+    line-height: 23px;
+}
+
+.button.medium {
+    background-position: 0 0;
+}
+
+.button.medium * {
+    padding: 0 5px 0 3px;
+    font-size: 11px;
+    background-position: right top;
+}
+
+/* Button Hover */
+.button *:hover,
+.button *:active,
+.button *:focus {
+    color: #fcb416;
+}
+
+/* facebook btn */
+.button01,
+.button01 * {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    display: -moz-inline-stack;
+    display: inline-block;
+    text-decoration: none !important;
+    border: 0;
+    font-size: 11px;
+    font-family: Verdana, Geneva, sans-serif;
+    white-space: nowrap;
+    background: url(https://web.archive.org/web/20130826140144im_/http://web01.softnyx.com/image/latino/Softnyx/Main_new/btn_bg02.png) no-repeat;
+    vertical-align: top;
+    overflow: visible;
+    color: #fff;
+}
+
+.button01 {
+    padding-left: 20px;
+    margin-right: 9px;
+}
+
+.button01 * {
+    left: 4px;
+    cursor: pointer;
+    _cursor: hand;
+}
+
+.button01.medium01,
+.button01.medium01 * {
+    height: 23px;
+    line-height: 23px;
+}
+
+.button01.medium01 {
+    background-position: 0 0;
+}
+
+.button01.medium01 * {
+    padding: 0 6px 0 4px;
+    font-size: 11px;
+    background-position: right top;
+}
+
+/* Button Hover */
+ul li .button01 *:hover,
+.button01 *:active,
+.button01 *:focus {
+    color: #004474;
+}
+
+/* orange btn */
+.button02,
+.button02 * {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    display: -moz-inline-stack;
+    display: inline-block;
+    text-decoration: none !important;
+    border: 0;
+    font-size: 11px;
+    font-family: Verdana, Geneva, sans-serif;
+    white-space: nowrap;
+    background: url(https://web.archive.org/web/20130826140144im_/http://web01.softnyx.com/image/latino/Softnyx/Main_new/btn_bg03.png) no-repeat;
+    vertical-align: top;
+    overflow: visible;
+    color: #fff;
+}
+
+.button02 {
+    padding-left: 8px;
+    margin-right: 9px;
+}
+
+.button02 * {
+    left: 4px;
+    cursor: pointer;
+    _cursor: hand;
+}
+
+.button02.medium02,
+.button02.medium02 * {
+    height: 23px;
+    line-height: 21px;
+}
+
+.button02.medium02 {
+    background-position: 0 0;
+}
+
+.button02.medium02 * {
+    padding: 0 10px 0 6px;
+    font-size: 12px;
+    background-position: right top;
+}
+
+/* Button Hover */
+ul li .button02 *:hover,
+.button02 *:active,
+.button02 *:focus {
+    color: #000;
+}
+
+/* contents btn */
+.button03,
+.button03 * {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    display: -moz-inline-stack;
+    display: inline-block;
+    text-decoration: none !important;
+    border: 0;
+    font-size: 11px;
+    font-family: Verdana, Geneva, sans-serif;
+    white-space: nowrap;
+    background: url(https://web.archive.org/web/20130826140144im_/http://web01.softnyx.com/image/latino/Softnyx/Main_new/btn_bg04.png) no-repeat;
+    vertical-align: top;
+    overflow: visible;
+    color: #434343;
+}
+
+.button03 {
+    padding-left: 8px;
+    margin-right: 9px;
+}
+
+.button03 * {
+    left: 4px;
+    cursor: pointer;
+    _cursor: hand;
+}
+
+.button03.medium03,
+.button03.medium03 * {
+    height: 20px;
+    line-height: 19px;
+}
+
+.button03.medium03 {
+    background-position: 0 0;
+}
+
+.button03.medium03 * {
+    padding: 0 10px 0 6px;
+    font-size: 11px;
+    background-position: right top;
+}
+
+/* Button Hover */
+.button03 *:hover,
+.button03 *:active,
+.button03 *:focus {
+    color: #f26223;
+}
+
+.ad_area {
+    padding: 5px 10px 0 20px;
+    float: left;
+}
+
+/* login */
+ul.dropdown .top_login {
+    float: left;
+    width: 50px;
+    height: 56px;
+    padding-top: 5px;
+    padding-left: 8px;
+}
+
+ul.dropdown .top_logout {
+    float: left;
+    padding-top: 15px;
+}
+
+ul.dropdown .top_logout_hello {
+    float: left;
+    padding-top: 15px;
+    cursor: default;
+    background: url(https://web.archive.org/web/20130826140144im_/http://web01.softnyx.com/image/latino/Softnyx/Main_new/smile_icon.png) no-repeat 0 100%;
+    padding-left: 18px;
+}
+
+/* password */
+ul.dropdown .top_pw {
+    clear: both;
+}
+
+/*************** main menu end ***************/
+
+
+/* button */
+.button,
+.button * {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    display: -moz-inline-stack;
+    display: inline-block;
+    text-decoration: none !important;
+    border: 0;
+    font-size: 11px;
+    font-family: Verdana, Geneva, sans-serif;
+    white-space: nowrap;
+    background: url(https://web.archive.org/web/20130826140144im_/http://web01.softnyx.com/image/latino/Softnyx/Main_new/btn_bg01.png) no-repeat;
+    vertical-align: top;
+    overflow: visible;
+    color: #9a9a9a;
+}
+
+.button {
+    margin-right: 9px;
+}
+
+.button * {
+    left: 4px;
+    cursor: pointer;
+    _cursor: hand;
+}
+
+.button.medium,
+.button.medium * {
+    height: 23px;
+    line-height: 23px;
+}
+
+.button.medium {
+    background-position: 0 0;
+}
+
+.button.medium * {
+    padding: 0 5px 0 3px;
+    font-size: 11px;
+    background-position: right top;
+}
+
+/* Button Hover */
+.button *:hover,
+.button *:active,
+.button *:focus {
+    color: #fcb416;
+}
+
+/* facebook btn */
+.button01,
+.button01 * {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    display: -moz-inline-stack;
+    display: inline-block;
+    text-decoration: none !important;
+    border: 0;
+    font-size: 11px;
+    font-family: Verdana, Geneva, sans-serif;
+    white-space: nowrap;
+    background: url(https://web.archive.org/web/20130826140144im_/http://web01.softnyx.com/image/latino/Softnyx/Main_new/btn_bg02.png) no-repeat;
+    vertical-align: top;
+    overflow: visible;
+    color: #fff;
+}
+
+.button01 {
+    padding-left: 20px;
+    margin-right: 9px;
+}
+
+.button01 * {
+    left: 4px;
+    cursor: pointer;
+    _cursor: hand;
+}
+
+.button01.medium01,
+.button01.medium01 * {
+    height: 23px;
+    line-height: 23px;
+}
+
+.button01.medium01 {
+    background-position: 0 0;
+}
+
+.button01.medium01 * {
+    padding: 0 6px 0 4px;
+    font-size: 11px;
+    background-position: right top;
+}
+
+/* Button Hover */
+ul li .button01 *:hover,
+.button01 *:active,
+.button01 *:focus {
+    color: #004474;
+}
+
+/* orange btn */
+.button02,
+.button02 * {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    display: -moz-inline-stack;
+    display: inline-block;
+    text-decoration: none !important;
+    border: 0;
+    font-size: 11px;
+    font-family: Verdana, Geneva, sans-serif;
+    white-space: nowrap;
+    background: url(https://web.archive.org/web/20130826140144im_/http://web01.softnyx.com/image/latino/Softnyx/Main_new/btn_bg03.png) no-repeat;
+    vertical-align: top;
+    overflow: visible;
+    color: #fff;
+}
+
+.button02 {
+    padding-left: 8px;
+    margin-right: 9px;
+}
+
+.button02 * {
+    left: 4px;
+    cursor: pointer;
+    _cursor: hand;
+}
+
+.button02.medium02,
+.button02.medium02 * {
+    height: 23px;
+    line-height: 21px;
+}
+
+.button02.medium02 {
+    background-position: 0 0;
+}
+
+.button02.medium02 * {
+    padding: 0 10px 0 6px;
+    font-size: 12px;
+    background-position: right top;
+}
+
+/* Button Hover */
+ul li .button02 *:hover,
+.button02 *:active,
+.button02 *:focus {
+    color: #000;
+}
+
+/* contents btn */
+.button03,
+.button03 * {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    display: -moz-inline-stack;
+    display: inline-block;
+    text-decoration: none !important;
+    border: 0;
+    font-size: 11px;
+    font-family: Verdana, Geneva, sans-serif;
+    white-space: nowrap;
+    background: url(https://web.archive.org/web/20130826140144im_/http://web01.softnyx.com/image/latino/Softnyx/Main_new/btn_bg04.png) no-repeat;
+    vertical-align: top;
+    overflow: visible;
+    color: #434343;
+}
+
+.button03 {
+    padding-left: 8px;
+    margin-right: 9px;
+}
+
+.button03 * {
+    left: 4px;
+    cursor: pointer;
+    _cursor: hand;
+}
+
+.button03.medium03,
+.button03.medium03 * {
+    height: 20px;
+    line-height: 19px;
+}
+
+.button03.medium03 {
+    background-position: 0 0;
+}
+
+.button03.medium03 * {
+    padding: 0 10px 0 6px;
+    font-size: 11px;
+    background-position: right top;
+}
+
+/* Button Hover */
+.button03 *:hover,
+.button03 *:active,
+.button03 *:focus {
+    color: #f26223;
+}
+
+.ad_area {
+    padding: 5px 10px 0 20px;
+    float: left;
+}
+
+/* login */
+ul.dropdown .top_login {
+    float: left;
+    width: 50px;
+    height: 56px;
+    padding-top: 5px;
+    padding-left: 8px;
+}
+
+ul.dropdown .top_logout {
+    float: left;
+    padding-top: 15px;
+}
+
+ul.dropdown .top_logout_hello {
+    float: left;
+    padding-top: 15px;
+    cursor: default;
+    background: url(https://web.archive.org/web/20130826140144im_/http://web01.softnyx.com/image/latino/Softnyx/Main_new/smile_icon.png) no-repeat 0 100%;
+    padding-left: 18px;
+}
+
+/* password */
+ul.dropdown .top_pw {
+    clear: both;
+}
+
+
+/* softnyx top 
+#maindiv div {display:inline;}
+#game_clock {font-family:tahoma; font-size:11px; color:#ffffff;	font-weight:bold; float:right; width:150px; padding-top:5px}
+*/
+
+/* layout */
+#wrap {
+    margin: 0 auto;
+    width: 996px
+}
+
+#header {
+    width: 996px;
+    height: 106px;
+    float: left;
+    background: url(/web/20130826140144im_/http://r2beat.softnyx.com/image/sub/sub_topmenubg.jpg) no-repeat;
+}
+
+#topmenu {
+    float: left;
+    width: 370px;
+    height: 115px;
+    padding-left: 40px;
+    padding-top: 55px;
+    font-size: 0.92em;
+    font-weight: bold;
+    color: #fff
+}
+
+*html #topmenu {
+    float: left;
+    width: 370px;
+    height: 60px;
+    padding-left: 40px;
+    padding-top: 55px;
+    font-size: 0.92em;
+    font-weight: bold;
+    color: #fff
+}
+
+/* IE 6.0 hack */
+#topmenu02 {
+    float: left;
+    width: 181px;
+    height: 115px;
+    padding-top: 25px
+}
+
+*html #topmenu02 {
+    float: left;
+    width: 181px;
+    height: 90px;
+    padding-top: 25px
+}
+
+/* IE 6.0 hack */
+#topmenu03 {
+    float: left;
+    width: 405px;
+    height: 115px;
+    padding-top: 55px;
+    font-size: 0.92em;
+    font-weight: bold;
+    color: #fff
+}
+
+*html #topmenu03 {
+    float: left;
+    width: 405px;
+    height: 60px;
+    padding-top: 55px;
+    font-size: 0.92em;
+    font-weight: bold;
+    color: #fff
+}
+
+/* IE 6.0 hack */
+#topmenu li {
+    display: inline
+}
+
+#topmenu a {
+    color: #FFFFFF
+}
+
+#topmenu a:link {
+    color: #fff;
+    text-decoration: none
+}
+
+#topmenu a:visited {
+    color: #fff;
+    text-decoration: none
+}
+
+#topmenu a:active {
+    color: #fff;
+    text-decoration: none
+}
+
+#topmenu a:hover {
+    color: #2c4a70;
+    text-decoration: none
+}
+
+#topmenu03 li {
+    display: inline
+}
+
+#topmenu03 a {
+    color: #FFFFFF
+}
+
+#topmenu03 a:link {
+    color: #fff;
+    text-decoration: none
+}
+
+#topmenu03 a:visited {
+    color: #fff;
+    text-decoration: none
+}
+
+#topmenu03 a:active {
+    color: #fff;
+    text-decoration: none
+}
+
+#topmenu03 a:hover {
+    color: #2c4a70;
+    text-decoration: none
+}
+
+#sidebar {
+    width: 206px;
+    float: left;
+    padding-left: 10px
+}
+
+#login {
+    width: 206px;
+    height: 187px;
+    background: url(/web/20130826140144im_/http://r2beat.softnyx.com/image/sub/logout_bg.jpg)
+}
+
+#login dd.login_id {
+    width: 117px;
+    float: left;
+    vertical-align: top;
+    padding-left: 12px;
+    padding-top: 50px
+}
+
+#login dd.login_pw {
+    width: 117px;
+    float: left;
+    vertical-align: top;
+    padding-left: 12px;
+    margin-top: 5px
+}
+
+#login .input_text {
+    border: 1px solid #c9c9c9;
+    width: 115px;
+    height: 16px;
+    color: #444;
+}
+
+#login p.login_btn {
+    float: right;
+    margin: -21px 1px 0 0;
+}
+
+*html #login p.login_btn {
+    float: right;
+    margin: -21px 0 0 5px;
+}
+
+a.btn_big {
+    display: inline-block;
+    padding: 0;
+    background: url(/web/20130826140144im_/http://r2beat.softnyx.com/image/main/login_btnbg.jpg) no-repeat 100% 0;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: #444;
+    line-height: 44px;
+    word-spacing: -2px;
+    text-decoration: none !important;
+    white-space: nowrap
+}
+
+.login_btn .btn_big {
+    display: block;
+    padding: 1px 16px 0 6px;
+    background: url(/web/20130826140144im_/http://r2beat.softnyx.com/image/main/login_btnbg.jpg) no-repeat
+}
+
+#login_etc {
+    width: 190px;
+    float: left;
+    padding-left: 12px;
+    padding-top: 10px;
+    font-size: 9px;
+    color: #333;
+    word-spacing: -2px;
+}
+
+#login_etc a {
+    color: #333
+}
+
+#login_etc a:link {
+    color: #333;
+    text-decoration: none
+}
+
+#login_etc a:visited {
+    color: #333;
+    text-decoration: none
+}
+
+#login_etc a:active {
+    color: #333;
+    text-decoration: none
+}
+
+#login_etc a:hover {
+    color: #30a7ff;
+    text-decoration: underline
+}
+
+#login_etc li img {
+    vertical-align: -1px
+}
+
+/* logout */
+#login .logout {
+    width: 206px;
+    height: 187px;
+    background: url(/web/20130826140144im_/http://r2beat.softnyx.com/image/sub/logout_bg.jpg)
+}
+
+*html .logout_okCha {
+    width: 186px;
+    height: 130px;
+    float: left;
+    padding-left: 10px;
+    padding-top: 49px
+}
+
+/* IE 6.0 hack */
+.logout_noCha {
+    width: 186px;
+    height: 110px;
+    float: left;
+    padding-left: 10px;
+    padding-top: 60px;
+    font-family: tahoma, Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #444;
+    line-height: 16px;
+    word-spacing: -2px;
+    text-decoration: none !important;
+    white-space: nowrap
+}
+
+.logout_okCha {
+    width: 186px;
+    height: 130px;
+    float: left;
+    padding-left: 10px;
+    padding-top: 54px
+}
+
+.logout_okCha_table {
+    font-family: tahoma, Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #444;
+    line-height: 16px;
+    word-spacing: -2px;
+    text-decoration: none !important;
+    white-space: nowrap
+}
+
+.logout_okCha_levelNum {
+    font-family: tahoma;
+    font-size: 7px;
+    font-weight: bold;
+    color: #444;
+    word-spacing: -2px;
+    text-decoration: none;
+}
+
+.logout_okCha a {
+    color: #666666
+}
+
+.logout_okCha a:link {
+    color: #666666;
+    text-decoration: none
+}
+
+.logout_okCha a:visited {
+    color: #666666;
+    text-decoration: none
+}
+
+.logout_okCha a:active {
+    color: #666666;
+    text-decoration: none
+}
+
+.logout_okCha a:hover {
+    color: #30a7ff;
+    text-decoration: underline
+}
+
+#login_msg {
+    width: 130px;
+    height: 43px;
+    float: left;
+    font-size: 11px;
+    color: #373838;
+    padding-left: 10px;
+    padding-top: 113px;
+    word-spacing: -2px;
+}
+
+#login_msg P.login_btn {
+    float: right;
+    margin: -40px -66px 0 0;
+}
+
+*html #login_msg p.login_btn {
+    float: right;
+    margin: -40px 0 0 125px;
+}
+
+#login_msg a.btn_big {
+    display: inline-block;
+    padding: 0;
+    background: url(/web/20130826140144im_/http://r2beat.softnyx.com/image/main/login_btnbg.jpg) no-repeat 100% 0;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: #444;
+    line-height: 44px;
+    word-spacing: -2px;
+    text-decoration: none !important;
+    white-space: nowrap
+}
+
+#login_msg .login_btn .btn_big {
+    display: block;
+    padding: 1px 30px 0 16px;
+    background: url(/web/20130826140144im_/http://r2beat.softnyx.com/image/main/login_btnbg.jpg) no-repeat
+}
+
+.login_infotext {
+    white-space: pre-wrap;
+    /* CSS3*/
+    white-space: -moz-pre-wrap;
+    /* Mozilla, since 1999 */
+    white-space: -pre-wrap;
+    /* Opera 4-6 */
+    white-space: -o-pre-wrap;
+    /* Opera 7 */
+    word-wrap: break-all;
+    /* Internet Explorer 5.5+ */
+
+}
+
+
+#sub_menu_01 {
+    width: 206px;
+    height: 206px;
+    background: url(/web/20130826140144im_/http://r2beat.softnyx.com/image/sub/sub_menubg01.jpg);
+    margin-top: 15px
+}
+
+#sub_menu_01 h1 {
+    text-align: center;
+    padding-top: 10px;
+    width: 206px;
+    float: left;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    color: #4b4b4b;
+}
+
+#sub_menu01 h1 {
+    text-align: center;
+    .padding-top: 10px;
+    width: 206px;
+    height: 20px;
+    float: left;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    color: #4b4b4b;
+}
+
+#sub_menu_02 {
+    width: 206px;
+    height: 296px;
+    background: url(/web/20130826140144im_/http://r2beat.softnyx.com/image/sub/sub_menubg02.jpg);
+    margin-top: 15px
+}
+
+#sub_menu_02 h1 {
+    text-align: center;
+    padding-top: 10px;
+    width: 206px;
+    float: left;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    color: #4b4b4b;
+}
+
+#sub_menu_02 h1 {
+    text-align: center;
+    .padding-top: 10px;
+    width: 206px;
+    height: 20px;
+    float: left;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    color: #4b4b4b;
+}
+
+#sub_menu_03 {
+    width: 206px;
+    height: 176px;
+    background: url(/web/20130826140144im_/http://r2beat.softnyx.com/image/sub/sub_menubg03.jpg);
+    margin-top: 15px
+}
+
+#sub_menu_03 h1 {
+    text-align: center;
+    padding-top: 10px;
+    width: 206px;
+    float: left;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    color: #4b4b4b;
+}
+
+#sub_menu_03 h1 {
+    text-align: center;
+    .padding-top: 10px;
+    width: 206px;
+    height: 20px;
+    float: left;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    color: #4b4b4b;
+}
+
+#sub_menu_04 {
+    width: 206px;
+    height: 206px;
+    background: url(/web/20130826140144im_/http://r2beat.softnyx.com/image/sub/sub_menubg04.jpg);
+    margin-top: 15px
+}
+
+#sub_menu_04 h1 {
+    text-align: center;
+    padding-top: 10px;
+    width: 206px;
+    float: left;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    color: #4b4b4b;
+}
+
+#sub_menu_04 h1 {
+    text-align: center;
+    .padding-top: 10px;
+    width: 206px;
+    height: 20px;
+    float: left;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    color: #4b4b4b;
+}
+
+#sub_menu_05 {
+    width: 206px;
+    height: 296px;
+    background: url(/web/20130826140144im_/http://r2beat.softnyx.com/image/sub/sub_menubg05.jpg);
+    margin-top: 15px
+}
+
+#sub_menu_05 h1 {
+    text-align: center;
+    padding-top: 10px;
+    width: 206px;
+    float: left;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    color: #4b4b4b;
+}
+
+#sub_menu_05 h1 {
+    text-align: center;
+    .padding-top: 10px;
+    width: 206px;
+    height: 20px;
+    float: left;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    color: #4b4b4b;
+}
+
+#sub_menu_06 {
+    width: 206px;
+    height: 136px;
+    background: url(/web/20130826140144im_/http://r2beat.softnyx.com/image/sub/sub_menubg06.jpg);
+    margin-top: 15px
+}
+
+#sub_menu_06 h1 {
+    text-align: center;
+    padding-top: 10px;
+    width: 206px;
+    float: left;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    color: #4b4b4b;
+}
+
+#sub_menu_06 h1 {
+    text-align: center;
+    .padding-top: 10px;
+    width: 206px;
+    height: 20px;
+    float: left;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    color: #4b4b4b;
+}
+
+#sub_menu_07 {
+    width: 206px;
+    height: 106px;
+    background: url(/web/20130826140144im_/http://r2beat.softnyx.com/image/sub/sub_menubg07.jpg);
+    margin-top: 15px
+}
+
+#sub_menu_07 h1 {
+    text-align: center;
+    padding-top: 10px;
+    width: 206px;
+    float: left;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    color: #4b4b4b;
+}
+
+#sub_menu_07 h1 {
+    text-align: center;
+    .padding-top: 10px;
+    width: 206px;
+    height: 20px;
+    float: left;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    color: #4b4b4b;
+}
+
+#sub_menu_text {
+    width: 200px;
+    line-height: 34px;
+    padding-top: 22px
+}
+
+#sub_menu_text {
+    width: 200px;
+    line-height: 34px;
+    .padding-top: 13px;
+}
+
+*html #sub_menu_text {
+    width: 200px;
+    line-height: 34px;
+    padding-top: 0;
+}
+
+#sub_menu_text ul {
+    text-align: center;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: #de3724;
+    padding-top: 20px;
+}
+
+#sub_menu_text ul {
+    text-align: center;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: #de3724;
+    .padding-top: 0;
+}
+
+#sub_menu_text li a {
+    color: #636363;
+    text-align: center
+}
+
+#sub_menu_text li a:link {
+    color: #636363;
+    text-decoration: none
+}
+
+#sub_menu_text li a:visited {
+    color: #636363;
+    text-decoration: none
+}
+
+#sub_menu_text li a:active {
+    color: #636363;
+    text-decoration: none
+}
+
+#sub_menu_text li a:hover {
+    color: #de3724;
+    text-decoration: underline
+}
+
+#banner {
+    margin-top: 15px;
+    line-height: 10px
+}
+
+#contents {
+    width: 750px;
+    float: right
+}
+
+#sub_title {
+    width: 750px;
+    height: 59px;
+    background: url(/web/20130826140144im_/http://r2beat.softnyx.com/image/about/sub_titlebg.jpg)
+}
+
+#sub_title h1 {
+    padding-top: 17px;
+    padding-left: 58px;
+    width: 390px;
+    float: left;
+    font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    font-weight: 100;
+    color: #4c4c4c;
+}
+
+#sub_nav {
+    float: right;
+    margin: 40px 10px 0 0;
+    font-size: 11px;
+    color: #989898
+}
+
+#sub_nav .nav_01 {
+    color: #989898
+}
+
+#sub_nav .nav_02 {
+    color: #4b4b4b;
+    font-weight: bold
+}
+
+#sub_nav a {
+    color: #989898
+}
+
+#sub_nav a:link {
+    color: #989898;
+    text-decoration: none
+}
+
+#sub_nav a:visited {
+    color: #989898;
+    text-decoration: none
+}
+
+#sub_nav a:active {
+    color: #989898;
+    text-decoration: none
+}
+
+#sub_nav a:hover {
+    color: #4b4b4b;
+    text-decoration: underline
+}
+
+#sub_contents {
+    width: 741px;
+    background: url(/web/20130826140144im_/http://r2beat.softnyx.com/image/about/contents_bg.gif);
+    font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #4b4b4b;
+    padding-left: 9px
+}
+
+#sub_contents h2 {
+    font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #d64531;
+    font-weight: 100;
+    text-transform: uppercase;
+    padding-top: 6px
+}
+
+#sub_contents h3 {
+    font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #de3724;
+    font-weight: bold
+}
+
+#sub_contents p,
+h2 {
+    padding-top: 10px;
+    padding-bottom: 10px
+}
+
+.rank_number {
+    text-align: center;
+    letter-spacing: 4px
+}
+
+.rank_number a {
+    color: #4b4b4b;
+}
+
+.rank_number a:link {
+    color: #4b4b4b;
+    text-decoration: none
+}
+
+.rank_number a:hover {
+    color: #F00;
+    text-decoration: underline;
+    font-weight: bold
+}
+
+#sub_contents02 {
+    width: 741px;
+    background: url(/web/20130826140144im_/http://r2beat.softnyx.com/image/about/contents_bg.gif);
+    font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #4b4b4b;
+    padding-left: 9px
+}
+
+#sub_contents02 h2 {
+    font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #d64531;
+    font-weight: 100;
+    text-transform: uppercase;
+    padding-top: 6px
+}
+
+#sub_contents02 h3 {
+    font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #de3724;
+    font-weight: bold
+}
+
+
+.interface_table td {
+    width: 145px;
+    height: 30px;
+    text-align: center;
+    background: #f2f2f2;
+    padding-top: 9px
+}
+
+.interface_table a {
+    color: #717171;
+    display: block;
+    width: 145px;
+    height: 30px;
+}
+
+.interface_table a:link {
+    color: #717171;
+    text-decoration: none
+}
+
+.interface_table a:visited {
+    color: #717171;
+    text-decoration: none
+}
+
+.interface_table a:active {
+    color: #717171;
+    text-decoration: none
+}
+
+.interface_table a:hover {
+    color: #fff
+}
+
+.install_table td {
+    width: 360px;
+    height: 30px;
+    text-align: center;
+    background: #f2f2f2;
+    padding-top: 9px
+}
+
+.install_table a {
+    color: #717171;
+    display: block;
+    width: 360px;
+    height: 30px;
+    text-decoration: none
+}
+
+.install_table a:hover {
+    color: #fff
+}
+
+.gamemode_table td {
+    width: 182px;
+    height: 30px;
+    text-align: center;
+    background: #f2f2f2;
+    padding-top: 9px
+}
+
+.gamemode_table a {
+    color: #717171;
+    display: block;
+    width: 182px;
+    height: 30px;
+}
+
+.gamemode_table a:link {
+    color: #717171;
+    text-decoration: none
+}
+
+.gamemode_table a:visited {
+    color: #717171;
+    text-decoration: none
+}
+
+.gamemode_table a:active {
+    color: #717171;
+    text-decoration: none
+}
+
+.gamemode_table a:hover {
+    color: #fff
+}
+
+.policy_table td {
+    text-align: center;
+    background: #f2f2f2;
+    height: 32px
+}
+
+.policy_table a {
+    color: #717171;
+    display: block;
+}
+
+.policy_table a:link {
+    color: #717171;
+    text-decoration: none
+}
+
+.policy_table a:visited {
+    color: #717171;
+    text-decoration: none
+}
+
+.policy_table a:active {
+    color: #717171;
+    text-decoration: none
+}
+
+.policy_table a:hover {
+    color: #fff
+}
+
+#myinfopopup {
+    font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #4b4b4b;
+}
+
+#myinfopopup h2 {
+    font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #ff738e;
+    font-weight: bold
+}
+
+.circle_text01 {
+    font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #ff738e;
+}
+
+.circle_text02 {
+    font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #737373;
+}
+
+.circle_text03 {
+    font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #ff738e;
+}
+
+.circle_text04 {
+    font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: #ff738e;
+    text-decoration: underline
+}
+
+.circle_text05 {
+    font-family: tahoma;
+    font-size: 7px;
+    font-weight: bold;
+    color: #444;
+    word-spacing: -2px;
+    text-decoration: none;
+}
+
+.circle_text06 {
+    font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #4b4b4b;
+    font-weight: bold;
+}
+
+.circle_text07 {
+    font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #4b4b4b;
+}
+
+.circle_text08 {
+    font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #4b4b4b;
+}
+
+.circle_text09 {
+    font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #ff738e;
+}
+
+.circle_box01 {
+    font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #4b4b4b;
+    border: #dcdcdc solid 1px;
+}
+
+.circle_box02 {
+    font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #737373;
+    border: #dcdcdc solid 1px;
+}
+
+.circle_text09 a:link {
+    color: #ff738e;
+    text-decoration: none
+}
+
+.circle_text09 a:visited {
+    color: #ff738e;
+    text-decoration: none
+}
+
+.circle_text09 a:active {
+    color: #ff738e;
+    text-decoration: none
+}
+
+.circle_text09 a:hover {
+    color: #4b4b4b;
+    text-decoration: underline
+}
+
+
+
+.circle_table {
+    font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #646464;
+}
+
+.circle_table td {
+    height: 30px;
+}
+
+.circle_table a {
+    color: #ff738e;
+}
+
+.circle_table a:link {
+    color: #ff738e;
+    text-decoration: none
+}
+
+.circle_table a:visited {
+    color: #ff738e;
+    text-decoration: none
+}
+
+.circle_table a:active {
+    color: #ff738e;
+    text-decoration: none
+}
+
+.circle_table a:hover {
+    color: #737373;
+    text-decoration: underline
+}
+
+.circle_table02 {
+    font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #4b4b4b;
+}
+
+.circle_table02 td {
+    height: 30px;
+    background-color: #FFFFFF
+}
+
+.circle_table02 a {
+    color: #ff738e;
+}
+
+.circle_table02 a:link {
+    color: #ff738e;
+    text-decoration: none
+}
+
+.circle_table02 a:visited {
+    color: #ff738e;
+    text-decoration: none
+}
+
+.circle_table02 a:active {
+    color: #ff738e;
+    text-decoration: none
+}
+
+.circle_table02 a:hover {
+    color: #737373;
+    text-decoration: underline
+}
+
+.circle_table03 {
+    font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #4b4b4b;
+}
+
+.circle_table03 td {
+    height: 30px;
+    background-color: #f2f2f2;
+    text-align: left
+}
+
+.circle_table03 a {
+    color: #ff738e;
+}
+
+.circle_table03 a:link {
+    color: #ff738e;
+    text-decoration: none
+}
+
+.circle_table03 a:visited {
+    color: #ff738e;
+    text-decoration: none
+}
+
+.circle_table03 a:active {
+    color: #ff738e;
+    text-decoration: none
+}
+
+.circle_table03 a:hover {
+    color: #737373;
+    text-decoration: underline
+}
+
+.circle_table04 {
+    font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #4b4b4b;
+}
+
+.circle_table05 {
+    font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #4b4b4b;
+}
+
+.circle_table05 a {
+    color: #4b4b4b;
+}
+
+.circle_table05 a:link {
+    color: #4b4b4b;
+    text-decoration: none
+}
+
+.circle_table05 a:visited {
+    color: #4b4b4b;
+    text-decoration: none
+}
+
+.circle_table05 a:active {
+    color: #4b4b4b;
+    text-decoration: none
+}
+
+.circle_table05 a:hover {
+    color: #ff738e;
+    text-decoration: underline
+}
+
+
+/* google keyword */
+#googleSerach {
+    padding-top: 20px;
+}
+
+#googleSerach .search_border {
+    background-color: #FFFFFF;
+    border: #090 solid 3px;
+    display: inline-block;
+    height: 23px;
+}
+
+input.keyword {
+    border: 0;
+    margin: 2px 0 0 3px;
+    background: #fff url('https://web.archive.org/web/20130826140144im_/http://img.softnyx.com/3/sn/common/keyword.gif') 1px 3px no-repeat;
+    font-size: 12px;
+    font-family: Verdana, Geneva, sans-serif;
+    width: 137px;
+}
+
+input.keyword01 {
+    border: 0;
+    margin: 2px 0 0 3px;
+    font-size: 12px;
+    font-family: Verdana, Geneva, sans-serif;
+    width: 137px;
+}
+
+/* gb point btn */
+.button05,
+.button05 * {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    display: -moz-inline-stack;
+    display: inline-block;
+    text-decoration: none !important;
+    border: 0;
+    font-size: 11px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, sans-serif;
+    white-space: nowrap;
+    background: url(https://web.archive.org/web/20130826140144im_/http://img.softnyx.com/3/rb/main/point_btn.jpg) no-repeat;
+    vertical-align: top;
+    overflow: visible;
+    color: #960b0b;
+}
+
+.button05 {
+    padding-left: 0px;
+    margin-right: 4px;
+}
+
+.button05 * {
+    cursor: pointer;
+    _cursor: hand;
+}
+
+.button05.medium05,
+.button05.medium05 * {
+    height: 29px;
+    line-height: 28px;
+}
+
+.button05.medium05 {
+    background-position: 0 0;
+}
+
+.button05.medium05 * {
+    padding: 0;
+    font-size: 11px;
+    font-weight: bold;
+    background-position: right top;
+}
+
+/* Button Hover */
+.button05 a {
+    color: #fff;
+}
+
+.button05 a:hover {
+    color: #000;
+}
+
+
+#footer {
+    width: 991px;
+    height: 80px;
+    float: left;
+    margin-top: 20px
+}
+
+*html #footer {
+    width: 991px;
+    height: 80px;
+    float: left;
+    margin-top: 0
+}
+
+/*
+     FILE ARCHIVED ON 14:01:44 Aug 26, 2013 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 01:25:29 Dec 20, 2022.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 71.015
+  exclusion.robots: 0.091
+  exclusion.robots.policy: 0.081
+  RedisCDXSource: 0.628
+  esindex: 0.01
+  LoadShardBlock: 53.218 (3)
+  PetaboxLoader3.datanode: 76.036 (4)
+  CDXLines.iter: 14.459 (3)
+  load_resource: 72.725
+  PetaboxLoader3.resolve: 41.357
+*/
