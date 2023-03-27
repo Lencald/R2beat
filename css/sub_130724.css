@@ -40,6 +40,7 @@ ul {
     margin: 0;
 }
 
+/*
 a {
     selector-dummy: expression(this.hideFocus=true);
 }
@@ -47,7 +48,7 @@ a {
 :focus {
     -moz-outline-style: none;
 }
-
+*/
 td {
     word-break: break-all;
 }
@@ -1217,7 +1218,7 @@ a.btn_big {
 .login_btn .btn_big {
     display: block;
     padding: 1px 16px 0 6px;
-    background: url(/web/20130826140144im_/http://r2beat.softnyx.com/image/main/login_btnbg.jpg) no-repeat
+    background: url(../images/login_btnbg.jpg) no-repeat
 }
 
 #login_etc {
@@ -1415,7 +1416,7 @@ a.btn_big {
 
 #sub_menu01 h1 {
     text-align: center;
-    .padding-top: 10px;
+    padding-top: 10px;
     width: 206px;
     height: 20px;
     float: left;
@@ -1445,7 +1446,7 @@ a.btn_big {
 
 #sub_menu_02 h1 {
     text-align: center;
-    .padding-top: 10px;
+    padding-top: 10px;
     width: 206px;
     height: 20px;
     float: left;
@@ -1475,7 +1476,7 @@ a.btn_big {
 
 #sub_menu_03 h1 {
     text-align: center;
-    .padding-top: 10px;
+    padding-top: 10px;
     width: 206px;
     height: 20px;
     float: left;
@@ -1505,7 +1506,7 @@ a.btn_big {
 
 #sub_menu_04 h1 {
     text-align: center;
-    .padding-top: 10px;
+    padding-top: 10px;
     width: 206px;
     height: 20px;
     float: left;
@@ -1535,7 +1536,7 @@ a.btn_big {
 
 #sub_menu_05 h1 {
     text-align: center;
-    .padding-top: 10px;
+    padding-top: 10px;
     width: 206px;
     height: 20px;
     float: left;
@@ -1565,7 +1566,7 @@ a.btn_big {
 
 #sub_menu_06 h1 {
     text-align: center;
-    .padding-top: 10px;
+    padding-top: 10px;
     width: 206px;
     height: 20px;
     float: left;
@@ -1595,7 +1596,7 @@ a.btn_big {
 
 #sub_menu_07 h1 {
     text-align: center;
-    .padding-top: 10px;
+    padding-top: 10px;
     width: 206px;
     height: 20px;
     float: left;
@@ -1614,7 +1615,7 @@ a.btn_big {
 #sub_menu_text {
     width: 200px;
     line-height: 34px;
-    .padding-top: 13px;
+    padding-top: 13px;
 }
 
 *html #sub_menu_text {
@@ -1638,7 +1639,7 @@ a.btn_big {
     font-size: 12px;
     font-weight: bold;
     color: #de3724;
-    .padding-top: 0;
+    padding-top: 0;
 }
 
 #sub_menu_text li a {
