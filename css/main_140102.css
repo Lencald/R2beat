@@ -45,6 +45,9 @@ ul {
 
 
 /*************** main menu start ***************/
+#r2-steam{
+	padding-top: 10px;
+}
 
 #common_top {
 	width: 100%;
